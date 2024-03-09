@@ -1,0 +1,26 @@
+:root {
+    // color
+
+    --primary: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+
+    // font
+    @font-face {
+        font-family: 'figtree';
+        src: url(../fonts/static/Figtree-SemiBold.ttf) format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'figtree';
+        src: url(../fonts/static/Figtree-ExtraBold.ttf) format('truetype');
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    --font: 'figtree',
+    sans-serif;
+}
